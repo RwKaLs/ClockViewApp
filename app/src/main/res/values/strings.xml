@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ClockViewApp</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="multiple_clocks">Many clocks of different size</string>
+    <string name="clock_code">This clock was added using code</string>
+    <string name="clock_xml">This clock was added using XML</string>
+</resources>
