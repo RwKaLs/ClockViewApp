@@ -13,7 +13,7 @@ ClockViewApp is an application showcases a custom `ClockView` that displays the 
 
 The `ClockView` is implemented using Android's `View` class, making it easily reusable in any Android application.
 It uses a `Handler` to update the time every second and maintains its state under configuration changes (e.g. screen rotations, themes changes, etc.).
-The `ClockView` can be added to the layout either from code or using XML. It also supports custom attributes for customization.
+The `ClockView` can be added to the layout either from code or using XML. It also supports attributes for customization.
 
 | ClockXML                                                     | MultipleClocks                                               | ClockCode                                                    |
 |--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
