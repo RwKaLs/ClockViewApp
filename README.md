@@ -7,9 +7,9 @@ ClockViewApp is an application showcases a custom `ClockView` that displays the 
 - **Custom ClockView**: The `ClockView` is a custom view that displays the current time. It's designed to be easily customizable, with options to change the clock color, border color, and border width.
 
 - **Three Demonstration Screens**: three screens to showcase the `ClockView` in different situations:
-    1. **ClockXMLFragment**: This screen shows how to add a `ClockView` to your layout using XML.
-    2. **MultipleClocksFragment**: This screen shows multiple `ClockView` instances of different sizes, demonstrating the scalability of the `ClockView`.
-    3. **ClockCodeFragment**: This screen shows how to add a `ClockView` to your layout from kotlin code.
+  - **ClockXMLFragment**: This screen shows how to add a `ClockView` to your layout using XML.
+  - **MultipleClocksFragment**: This screen shows multiple `ClockView` instances of different sizes, demonstrating the scalability of the `ClockView`.
+  - **ClockCodeFragment**: This screen shows how to add a `ClockView` to your layout from kotlin code.
 
 ## Implementation
 
