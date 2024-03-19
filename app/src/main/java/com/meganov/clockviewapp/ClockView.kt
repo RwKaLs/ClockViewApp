@@ -39,7 +39,8 @@ class ClockView : View {
             try {
                 clockColor = getColor(R.styleable.ClockView_clockColor, Color.WHITE)
                 borderColor = getColor(R.styleable.ClockView_borderColor, Color.BLACK)
-                borderWidth = getDimension(R.styleable.ClockView_borderWidth, min(width, height) / 100f)
+                borderWidth =
+                    getDimension(R.styleable.ClockView_borderWidth, min(width, height) / 100f)
             } finally {
                 recycle()
             }
@@ -86,7 +87,8 @@ class ClockView : View {
         for (i in 1..12) {
             val angle = Math.toRadians((i * 30 - 90).toDouble()).toFloat()
             val numX = centerX + radius * 0.77f * cos(angle)
-            val numY = centerY + radius * 0.77f * sin(angle) - (metrics.ascent + metrics.descent) / 2
+            val numY =
+                centerY + radius * 0.77f * sin(angle) - (metrics.ascent + metrics.descent) / 2
             canvas.drawText(i.toString(), numX, numY, paint)
         }
 
